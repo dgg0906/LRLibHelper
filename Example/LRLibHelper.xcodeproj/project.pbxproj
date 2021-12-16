@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		1EC162D3C749F066CC069DAB /* Pods_LRLibHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRLibHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E547AE6F9703AA74A6A5409 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E547AE6F9703AA74A6A5409 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		53EF7ADA367F3352A71D0202 /* Pods-LRLibHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRLibHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-LRLibHelper_Example/Pods-LRLibHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LRLibHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRLibHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858C9BD2BD45353667E4A9E4 /* Pods-LRLibHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRLibHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-LRLibHelper_Tests/Pods-LRLibHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D7774F27709A9AC7519C79F /* LRLibHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LRLibHelper.podspec; path = ../LRLibHelper.podspec; sourceTree = "<group>"; };
-		989F35F330EDCC3704417BF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D7774F27709A9AC7519C79F /* LRLibHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LRLibHelper.podspec; path = ../LRLibHelper.podspec; sourceTree = "<group>"; };
+		989F35F330EDCC3704417BF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DEFF28FDE7755E4B8782AB8C /* Pods-LRLibHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LRLibHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-LRLibHelper_Example/Pods-LRLibHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F619B1D8009F2FD0CBD45C42 /* Pods_LRLibHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRLibHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				60086F07AE25240768A67E92 /* Pods-LRLibHelper_Tests.debug.xcconfig */,
 				858C9BD2BD45353667E4A9E4 /* Pods-LRLibHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = dgg0906;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ND6ZM794QX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 53EF7ADA367F3352A71D0202 /* Pods-LRLibHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ND6ZM794QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRLibHelper/LRLibHelper-Prefix.pch";
 				INFOPLIST_FILE = "LRLibHelper/LRLibHelper-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = DEFF28FDE7755E4B8782AB8C /* Pods-LRLibHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ND6ZM794QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRLibHelper/LRLibHelper-Prefix.pch";
 				INFOPLIST_FILE = "LRLibHelper/LRLibHelper-Info.plist";

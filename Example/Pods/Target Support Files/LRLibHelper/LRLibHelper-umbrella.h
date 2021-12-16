@@ -16,6 +16,7 @@
 #import "UILabel+UI.h"
 #import "UIView+AZGradient.h"
 #import "UIViewController+AlertNoPresent.h"
+#import "LRLibHeader.h"
 
 FOUNDATION_EXPORT double LRLibHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char LRLibHelperVersionString[];

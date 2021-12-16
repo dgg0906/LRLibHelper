@@ -8,6 +8,7 @@
 
 #import "LRAppDelegate.h"
 
+
 @implementation LRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

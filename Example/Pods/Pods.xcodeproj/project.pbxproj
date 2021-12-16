@@ -7,38 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D5DDC5483200E6968DA81B9C2212D95 /* UIViewController+AlertNoPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = A12BF197818E7B6C780E6F0F10924973 /* UIViewController+AlertNoPresent.m */; };
-		176769C801598823489F8D2182E4E1F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1B5E3D01B6CB036A3335457FC2172002 /* UILabel+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C122F0254F2C79E6A4594D9B740961 /* UILabel+UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2327F8A26098A63C8AE13F6948576E05 /* UIView+AZGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 52877091F809AF5F9CF63DFA79B83485 /* UIView+AZGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A377D481C39E0197433B40E743147E1 /* NSArray+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 642DD92139F1359AB93E7529383138D6 /* NSArray+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A93EBE71431E78AD5B01CB437E7DB6A /* UIView+AZGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD927F63B4AA256EDD37BD63DF05F7 /* UIView+AZGradient.m */; };
+		121332876C2690CF58807CF2E4A845BC /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 575DCA02CC4E0010C7CED033D03CE85D /* NSString+URLCode.m */; };
+		1C2403924CE0B5E194A168CF86619F23 /* UILabel+UI.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEDC7AC98C9ECDD5B5E82E8A784DD3A /* UILabel+UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D2C82490F45B4818D3C35997289724 /* LRLibHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C08447B551FF55160B1FD1ECCB7169 /* LRLibHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F223D8643C9E1455BEA2E2B86BC4686 /* Pods-LRLibHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AB660A0F0A2852F7EA113EE2029469 /* Pods-LRLibHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47378F1176393B464EA8E74D4A2C6501 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = EF896A59B6A31CA4F910547ED3464D40 /* NSDictionary+Log.m */; };
-		51DB189AFD52D42C479A19FDF6CFC6F6 /* UIViewController+AlertNoPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C5BF1CCBA3756D7FAB165524962050 /* UIViewController+AlertNoPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58E41A962B270DAB446BAA5BEB28A4C4 /* NSString+URLCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61C261F790F0F65E67CA32EFC1B01E /* NSString+URLCode.m */; };
-		5CAEBFC00D361D9610C74B0D336E5285 /* LRLibHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67A65483266AD347BD978AC1EBC7E50 /* LRLibHelper-dummy.m */; };
-		6468704C667867AB31C7D644C2B169A8 /* NSString+URLCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 867F0AE8A02F8CF91383FDFF93CE533C /* NSString+URLCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82C5EF94CD68B3AC1A2A074CAC3317DB /* LRLibHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6617D4FA1D3CC5BC6940755F079552 /* LRLibHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5402F2AC2C78A9659616CA78EDC46C42 /* LRLibHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC152975D8F59075A6CBEFC62D11641 /* LRLibHelper-dummy.m */; };
+		5D18FE13DC503F31D42096190441D5F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6756D786A9BB1E41833D3AEFDAE20682 /* UIView+AZGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8461C130991C0DBDFB891F2C86094F48 /* UIView+AZGradient.m */; };
+		738067D639F9BB9BAED60CF4F336E4B4 /* NSDictionary+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FD508AFC6B618AE6B4C2221C8BD9D4 /* NSDictionary+Log.m */; };
+		79BE54C4FFFF0AD59E647BF82F08579A /* LRLibHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A64DFE7AE5F4A665928325210473C1FF /* LRLibHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AF53CF25BF623E92E073AE197FAC79E /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D71ADA32B22C7010A7365D5E99C49FC /* NSArray+Log.m */; };
 		9C0E4DA7763140774EED11E55E66FB7A /* Pods-LRLibHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C271B9BD20D411A6861991739D6250 /* Pods-LRLibHelper_Tests-dummy.m */; };
-		A073FCCC5605C984F13C7D5ACF934526 /* NSDictionary+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = F812BAAF57608C354FFD1A583F2785AD /* NSDictionary+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3C5CFA2812B182B4DC4ED87DC4AFFA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A60EF1997F3F817B5B3CB5C2E1ED5360 /* NSDictionary+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 276449F36D2E57816782536D67322424 /* NSDictionary+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9B6B4976207745B1AEEB3CBC6E113F1 /* Pods-LRLibHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEBCC126E180DC719D401D08F35383 /* Pods-LRLibHelper_Example-dummy.m */; };
 		AB6D79DA589D36280304A5A1445B3265 /* Pods-LRLibHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A42D2BC5D1645BDBD67CB811A9FBCB /* Pods-LRLibHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D61C2910122401583B4F40653291B12A /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D36888D2526A6E0FA40EE56775C2215 /* NSArray+Log.m */; };
-		D848B6AE9A8D6C51E1ECC4438C2C5E18 /* UILabel+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5457F1C0727B5A91D140F4C6358254 /* UILabel+UI.m */; };
+		B73059AAADDC3AE6C20D7BC7CC11D479 /* UIViewController+AlertNoPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = C75F0C63AA656C7CEB34003AD8FB5FCE /* UIViewController+AlertNoPresent.m */; };
+		BCD1E94FF2AE8C5CB3C278964907F094 /* NSString+URLCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4157865A59FCC1AE85D035314A9038CA /* NSString+URLCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C42C5F34D233CC4A7AAF2E29EC9A3F25 /* UILabel+UI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4461D735A367EF412FAF64F2ECF46F /* UILabel+UI.m */; };
+		D89FCAD35D122360FA7E3B520602C99C /* UIViewController+AlertNoPresent.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB69570CF214021BFA4919CD0D39A06 /* UIViewController+AlertNoPresent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68182410E4F4BF4E332D4E6E928DC22 /* NSArray+Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D05F32197C1ED61E787D3B6943BA36F /* NSArray+Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8612196D2118B475B87BDC97B351AFE /* UIView+AZGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 89DB5E540AF5A47F6332E1D690651D9B /* UIView+AZGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8FA424451085952C8887F1C820E649E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		191C5D5C842C7E5924EFFFF781C7C077 /* PBXContainerItemProxy */ = {
+		6F362E5C2A8ABF7CAA9827321C032987 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1E9D5CD6527D71838CF4A1E070FB69A5;
 			remoteInfo = "Pods-LRLibHelper_Example";
 		};
-		587E89DB7C91F344F6F15B4B1347EB5E /* PBXContainerItemProxy */ = {
+		D82AB6EBA062839D346CA1605706E707 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -48,53 +49,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A5D4066583647266689F14A153FDC3 /* LRLibHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRLibHelper.debug.xcconfig; sourceTree = "<group>"; };
-		0BEF62D47927CE86BD49479A4AE78751 /* LRLibHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRLibHelper.modulemap; sourceTree = "<group>"; };
 		142FD3573B79D3EF19D97E985E5F1919 /* Pods-LRLibHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRLibHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		20E497F4F3CF0990805B178E7011990B /* LRLibHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRLibHelper-Info.plist"; sourceTree = "<group>"; };
-		2533976705EA2FA2C9A7D49DA04A8450 /* LRLibHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRLibHelper.release.xcconfig; sourceTree = "<group>"; };
-		2D61C261F790F0F65E67CA32EFC1B01E /* NSString+URLCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLCode.m"; path = "LRLibHelper/Classes/Category/NSString+URLCode.m"; sourceTree = "<group>"; };
+		18CFA3AA9259280E022CF83EDA624885 /* LRLibHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LRLibHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1D05F32197C1ED61E787D3B6943BA36F /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		276449F36D2E57816782536D67322424 /* NSDictionary+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Log.h"; sourceTree = "<group>"; };
+		2F5CDAA2AF7AEB1832337B1AC60A7AA0 /* LRLibHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRLibHelper.debug.xcconfig; sourceTree = "<group>"; };
+		3B4461D735A367EF412FAF64F2ECF46F /* UILabel+UI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UI.m"; sourceTree = "<group>"; };
+		4157865A59FCC1AE85D035314A9038CA /* NSString+URLCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+URLCode.h"; sourceTree = "<group>"; };
+		519DF44FC8BE6373199A5459C0919946 /* LRLibHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LRLibHelper.release.xcconfig; sourceTree = "<group>"; };
 		51C5F3821D085DA2DCA18E97616C8C61 /* Pods-LRLibHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRLibHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		52877091F809AF5F9CF63DFA79B83485 /* UIView+AZGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AZGradient.h"; path = "LRLibHelper/Classes/Category/UIView+AZGradient.h"; sourceTree = "<group>"; };
+		53FD508AFC6B618AE6B4C2221C8BD9D4 /* NSDictionary+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Log.m"; sourceTree = "<group>"; };
 		549B88B27C2DCD5AE3A8DA2DFA5B3BFB /* Pods-LRLibHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRLibHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		575DCA02CC4E0010C7CED033D03CE85D /* NSString+URLCode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLCode.m"; sourceTree = "<group>"; };
 		57CD0D408B03212D965901DDA387C0E3 /* Pods-LRLibHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRLibHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5A214018A9AA22EFCB3FCC0CCF71A5B5 /* LRLibHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LRLibHelper.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		5DAD927F63B4AA256EDD37BD63DF05F7 /* UIView+AZGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AZGradient.m"; path = "LRLibHelper/Classes/Category/UIView+AZGradient.m"; sourceTree = "<group>"; };
-		642DD92139F1359AB93E7529383138D6 /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "LRLibHelper/Classes/Category/NSArray+Log.h"; sourceTree = "<group>"; };
+		5D71ADA32B22C7010A7365D5E99C49FC /* NSArray+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		675F931E9DBCB67C545EB8E10EAB04DA /* LRLibHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LRLibHelper-Info.plist"; sourceTree = "<group>"; };
 		67A3A1FF81C3980DA0E9DE5809AACAEF /* Pods-LRLibHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRLibHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		67AB660A0F0A2852F7EA113EE2029469 /* Pods-LRLibHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRLibHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70F345D42C3CE263888FBCA8A0FF9005 /* LRLibHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRLibHelper-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76C271B9BD20D411A6861991739D6250 /* Pods-LRLibHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRLibHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		77C08447B551FF55160B1FD1ECCB7169 /* LRLibHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LRLibHeader.h; path = LRLibHelper/Classes/LRLibHeader.h; sourceTree = "<group>"; };
 		82E281FC1737B05E3C23A182155BCB6E /* Pods-LRLibHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRLibHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		8461C130991C0DBDFB891F2C86094F48 /* UIView+AZGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AZGradient.m"; sourceTree = "<group>"; };
 		85EEBCC126E180DC719D401D08F35383 /* Pods-LRLibHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LRLibHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		867F0AE8A02F8CF91383FDFF93CE533C /* NSString+URLCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLCode.h"; path = "LRLibHelper/Classes/Category/NSString+URLCode.h"; sourceTree = "<group>"; };
-		8884889ADAEF25E6931A3318406907CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		88C122F0254F2C79E6A4594D9B740961 /* UILabel+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+UI.h"; path = "LRLibHelper/Classes/Category/UILabel+UI.h"; sourceTree = "<group>"; };
-		8C6617D4FA1D3CC5BC6940755F079552 /* LRLibHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRLibHelper-umbrella.h"; sourceTree = "<group>"; };
-		8D36888D2526A6E0FA40EE56775C2215 /* NSArray+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "LRLibHelper/Classes/Category/NSArray+Log.m"; sourceTree = "<group>"; };
-		98A6070895FBC1763241C1889E521D09 /* LRLibHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRLibHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A12BF197818E7B6C780E6F0F10924973 /* UIViewController+AlertNoPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AlertNoPresent.m"; path = "LRLibHelper/Classes/Category/UIViewController+AlertNoPresent.m"; sourceTree = "<group>"; };
+		89DB5E540AF5A47F6332E1D690651D9B /* UIView+AZGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+AZGradient.h"; sourceTree = "<group>"; };
+		8BC152975D8F59075A6CBEFC62D11641 /* LRLibHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRLibHelper-dummy.m"; sourceTree = "<group>"; };
+		98A6070895FBC1763241C1889E521D09 /* LRLibHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRLibHelper.framework; path = LRLibHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2B8656D899BF7E565CCFA2A471D742D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A64DFE7AE5F4A665928325210473C1FF /* LRLibHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRLibHelper-umbrella.h"; sourceTree = "<group>"; };
+		AEEDC7AC98C9ECDD5B5E82E8A784DD3A /* UILabel+UI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+UI.h"; sourceTree = "<group>"; };
 		B18FCF3DBCF5EEBDB9C07927CE91F99C /* Pods-LRLibHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRLibHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B58FE7127DAAD52346928F26D6A7DD3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B7F5EF973FC37815C3060BF90667FD40 /* Pods-LRLibHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRLibHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		C1A42D2BC5D1645BDBD67CB811A9FBCB /* Pods-LRLibHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LRLibHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		C75F0C63AA656C7CEB34003AD8FB5FCE /* UIViewController+AlertNoPresent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertNoPresent.m"; sourceTree = "<group>"; };
+		C99F1E337BD246351B285171DF06B2DC /* LRLibHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRLibHelper.modulemap; sourceTree = "<group>"; };
 		CB39E8112A4A8306D86A18423CF0E827 /* Pods-LRLibHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LRLibHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		D67A65483266AD347BD978AC1EBC7E50 /* LRLibHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LRLibHelper-dummy.m"; sourceTree = "<group>"; };
-		E4C5BF1CCBA3756D7FAB165524962050 /* UIViewController+AlertNoPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AlertNoPresent.h"; path = "LRLibHelper/Classes/Category/UIViewController+AlertNoPresent.h"; sourceTree = "<group>"; };
-		E61F4D44D2009CAF4DC99BE88051B2BE /* Pods_LRLibHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRLibHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61F4D44D2009CAF4DC99BE88051B2BE /* Pods_LRLibHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRLibHelper_Tests.framework; path = "Pods-LRLibHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED68AB43A1996AAF5B8778DA7DA85638 /* Pods-LRLibHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LRLibHelper_Example.modulemap"; sourceTree = "<group>"; };
-		EF1D27604AC6803CE4854509BEF953FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		EF5457F1C0727B5A91D140F4C6358254 /* UILabel+UI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+UI.m"; path = "LRLibHelper/Classes/Category/UILabel+UI.m"; sourceTree = "<group>"; };
-		EF896A59B6A31CA4F910547ED3464D40 /* NSDictionary+Log.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Log.m"; path = "LRLibHelper/Classes/Category/NSDictionary+Log.m"; sourceTree = "<group>"; };
-		EFA2649F7DC5E6D6C1A23A55D9943B96 /* Pods_LRLibHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LRLibHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA2649F7DC5E6D6C1A23A55D9943B96 /* Pods_LRLibHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LRLibHelper_Example.framework; path = "Pods-LRLibHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB69570CF214021BFA4919CD0D39A06 /* UIViewController+AlertNoPresent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertNoPresent.h"; sourceTree = "<group>"; };
 		F024BC04C1792D94DA553A5D09EB8EA4 /* Pods-LRLibHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LRLibHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F0F03E49DD056BE79D09ADB320C64CAF /* Pods-LRLibHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LRLibHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F812BAAF57608C354FFD1A583F2785AD /* NSDictionary+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Log.h"; path = "LRLibHelper/Classes/Category/NSDictionary+Log.h"; sourceTree = "<group>"; };
+		F8D1B5AC1ABF85A24C8C1703FAAE5920 /* LRLibHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LRLibHelper-prefix.pch"; sourceTree = "<group>"; };
 		FC835ACFA536D6E95FA366E2CC481EDD /* Pods-LRLibHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LRLibHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3914D9AB93E373C92E3ACA9392BE30F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D18FE13DC503F31D42096190441D5F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3D050597F1EA3ACE94D99221A0367A57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,60 +121,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D1D626BD3717CE26443D40E1B88113C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				176769C801598823489F8D2182E4E1F0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DCE5B85A872C8D68562F884746EB1BD /* Support Files */ = {
+		2F29D3A2706FF1E34C8D57A550EF519E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				0BEF62D47927CE86BD49479A4AE78751 /* LRLibHelper.modulemap */,
-				D67A65483266AD347BD978AC1EBC7E50 /* LRLibHelper-dummy.m */,
-				20E497F4F3CF0990805B178E7011990B /* LRLibHelper-Info.plist */,
-				70F345D42C3CE263888FBCA8A0FF9005 /* LRLibHelper-prefix.pch */,
-				8C6617D4FA1D3CC5BC6940755F079552 /* LRLibHelper-umbrella.h */,
-				08A5D4066583647266689F14A153FDC3 /* LRLibHelper.debug.xcconfig */,
-				2533976705EA2FA2C9A7D49DA04A8450 /* LRLibHelper.release.xcconfig */,
+				1D05F32197C1ED61E787D3B6943BA36F /* NSArray+Log.h */,
+				5D71ADA32B22C7010A7365D5E99C49FC /* NSArray+Log.m */,
+				276449F36D2E57816782536D67322424 /* NSDictionary+Log.h */,
+				53FD508AFC6B618AE6B4C2221C8BD9D4 /* NSDictionary+Log.m */,
+				4157865A59FCC1AE85D035314A9038CA /* NSString+URLCode.h */,
+				575DCA02CC4E0010C7CED033D03CE85D /* NSString+URLCode.m */,
+				AEEDC7AC98C9ECDD5B5E82E8A784DD3A /* UILabel+UI.h */,
+				3B4461D735A367EF412FAF64F2ECF46F /* UILabel+UI.m */,
+				89DB5E540AF5A47F6332E1D690651D9B /* UIView+AZGradient.h */,
+				8461C130991C0DBDFB891F2C86094F48 /* UIView+AZGradient.m */,
+				EFB69570CF214021BFA4919CD0D39A06 /* UIViewController+AlertNoPresent.h */,
+				C75F0C63AA656C7CEB34003AD8FB5FCE /* UIViewController+AlertNoPresent.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LRLibHelper";
-			sourceTree = "<group>";
-		};
-		4291B8CEB1A78B0789229D6EEDB4F8A4 /* LRLibHelper */ = {
-			isa = PBXGroup;
-			children = (
-				642DD92139F1359AB93E7529383138D6 /* NSArray+Log.h */,
-				8D36888D2526A6E0FA40EE56775C2215 /* NSArray+Log.m */,
-				F812BAAF57608C354FFD1A583F2785AD /* NSDictionary+Log.h */,
-				EF896A59B6A31CA4F910547ED3464D40 /* NSDictionary+Log.m */,
-				867F0AE8A02F8CF91383FDFF93CE533C /* NSString+URLCode.h */,
-				2D61C261F790F0F65E67CA32EFC1B01E /* NSString+URLCode.m */,
-				88C122F0254F2C79E6A4594D9B740961 /* UILabel+UI.h */,
-				EF5457F1C0727B5A91D140F4C6358254 /* UILabel+UI.m */,
-				52877091F809AF5F9CF63DFA79B83485 /* UIView+AZGradient.h */,
-				5DAD927F63B4AA256EDD37BD63DF05F7 /* UIView+AZGradient.m */,
-				E4C5BF1CCBA3756D7FAB165524962050 /* UIViewController+AlertNoPresent.h */,
-				A12BF197818E7B6C780E6F0F10924973 /* UIViewController+AlertNoPresent.m */,
-				AD101466D8FB18AECE0D16259FDC01ED /* Pod */,
-				0DCE5B85A872C8D68562F884746EB1BD /* Support Files */,
-			);
-			name = LRLibHelper;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		469D37C8C92A4A1DFA1BFEA1385FFFCB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4291B8CEB1A78B0789229D6EEDB4F8A4 /* LRLibHelper */,
-			);
-			name = "Development Pods";
+			name = Category;
+			path = LRLibHelper/Classes/Category;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -175,14 +152,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AD101466D8FB18AECE0D16259FDC01ED /* Pod */ = {
+		8E4D229E17BE20C74E460840DAC2FC18 /* LRLibHelper */ = {
 			isa = PBXGroup;
 			children = (
-				EF1D27604AC6803CE4854509BEF953FA /* LICENSE */,
-				5A214018A9AA22EFCB3FCC0CCF71A5B5 /* LRLibHelper.podspec */,
-				8884889ADAEF25E6931A3318406907CF /* README.md */,
+				77C08447B551FF55160B1FD1ECCB7169 /* LRLibHeader.h */,
+				2F29D3A2706FF1E34C8D57A550EF519E /* Category */,
+				CC9F19CEEDF196BFD26A7E842B7C1AD7 /* Pod */,
+				BD0EBA99EE008966824B38DBBB007EFF /* Support Files */,
 			);
-			name = Pod;
+			name = LRLibHelper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B49198FD47F30BE8090997CD0E20AB8E /* Targets Support Files */ = {
@@ -194,11 +173,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BD0EBA99EE008966824B38DBBB007EFF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C99F1E337BD246351B285171DF06B2DC /* LRLibHelper.modulemap */,
+				8BC152975D8F59075A6CBEFC62D11641 /* LRLibHelper-dummy.m */,
+				675F931E9DBCB67C545EB8E10EAB04DA /* LRLibHelper-Info.plist */,
+				F8D1B5AC1ABF85A24C8C1703FAAE5920 /* LRLibHelper-prefix.pch */,
+				A64DFE7AE5F4A665928325210473C1FF /* LRLibHelper-umbrella.h */,
+				2F5CDAA2AF7AEB1832337B1AC60A7AA0 /* LRLibHelper.debug.xcconfig */,
+				519DF44FC8BE6373199A5459C0919946 /* LRLibHelper.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LRLibHelper";
+			sourceTree = "<group>";
+		};
+		CC9F19CEEDF196BFD26A7E842B7C1AD7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2B8656D899BF7E565CCFA2A471D742D /* LICENSE */,
+				18CFA3AA9259280E022CF83EDA624885 /* LRLibHelper.podspec */,
+				B58FE7127DAAD52346928F26D6A7DD3C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				469D37C8C92A4A1DFA1BFEA1385FFFCB /* Development Pods */,
+				FAC27BFC7E9B0F751350AB15AEBA1C6A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D10D18B42AC54BC0453ED5EA42C7CE15 /* Products */,
 				B49198FD47F30BE8090997CD0E20AB8E /* Targets Support Files */,
@@ -256,6 +260,14 @@
 			path = "Target Support Files/Pods-LRLibHelper_Example";
 			sourceTree = "<group>";
 		};
+		FAC27BFC7E9B0F751350AB15AEBA1C6A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E4D229E17BE20C74E460840DAC2FC18 /* LRLibHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -275,17 +287,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3BD491749325CA87A01EB2CC619A0FE /* Headers */ = {
+		DCF5F34BA0723FC8741F27E6E84E6C04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82C5EF94CD68B3AC1A2A074CAC3317DB /* LRLibHelper-umbrella.h in Headers */,
-				2A377D481C39E0197433B40E743147E1 /* NSArray+Log.h in Headers */,
-				A073FCCC5605C984F13C7D5ACF934526 /* NSDictionary+Log.h in Headers */,
-				6468704C667867AB31C7D644C2B169A8 /* NSString+URLCode.h in Headers */,
-				1B5E3D01B6CB036A3335457FC2172002 /* UILabel+UI.h in Headers */,
-				2327F8A26098A63C8AE13F6948576E05 /* UIView+AZGradient.h in Headers */,
-				51DB189AFD52D42C479A19FDF6CFC6F6 /* UIViewController+AlertNoPresent.h in Headers */,
+				27D2C82490F45B4818D3C35997289724 /* LRLibHeader.h in Headers */,
+				79BE54C4FFFF0AD59E647BF82F08579A /* LRLibHelper-umbrella.h in Headers */,
+				E68182410E4F4BF4E332D4E6E928DC22 /* NSArray+Log.h in Headers */,
+				A60EF1997F3F817B5B3CB5C2E1ED5360 /* NSDictionary+Log.h in Headers */,
+				BCD1E94FF2AE8C5CB3C278964907F094 /* NSString+URLCode.h in Headers */,
+				1C2403924CE0B5E194A168CF86619F23 /* UILabel+UI.h in Headers */,
+				F8612196D2118B475B87BDC97B351AFE /* UIView+AZGradient.h in Headers */,
+				D89FCAD35D122360FA7E3B520602C99C /* UIViewController+AlertNoPresent.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +317,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				16B293C8A0984835DE8DA97040F70C25 /* PBXTargetDependency */,
+				28E9920C8031D77DD582094A37F83DBB /* PBXTargetDependency */,
 			);
 			name = "Pods-LRLibHelper_Example";
 			productName = "Pods-LRLibHelper_Example";
@@ -323,7 +336,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4408EB8F263C2A8654977DF1333DEF39 /* PBXTargetDependency */,
+				FF84CEE01D3A69E1675CD93663141DD0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LRLibHelper_Tests";
 			productName = "Pods-LRLibHelper_Tests";
@@ -332,12 +345,12 @@
 		};
 		ADEA50BB24FEF6F242048FF400044A45 /* LRLibHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 288BD97ED5C8F005B435BA1FAF854082 /* Build configuration list for PBXNativeTarget "LRLibHelper" */;
+			buildConfigurationList = D913C2937FF8E15D1D54A2F3B056A073 /* Build configuration list for PBXNativeTarget "LRLibHelper" */;
 			buildPhases = (
-				F3BD491749325CA87A01EB2CC619A0FE /* Headers */,
-				13DCCB433BFEB28087ACA6BA6196CCF3 /* Sources */,
-				9D1D626BD3717CE26443D40E1B88113C /* Frameworks */,
-				043F1B758801E32BD12E0F1CB9F6DFFC /* Resources */,
+				DCF5F34BA0723FC8741F27E6E84E6C04 /* Headers */,
+				7181F06F4DCC9C1E891589379E75A90A /* Sources */,
+				3914D9AB93E373C92E3ACA9392BE30F7 /* Frameworks */,
+				68283CA694188703FE61330C0C0CCB5C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -385,7 +398,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		043F1B758801E32BD12E0F1CB9F6DFFC /* Resources */ = {
+		68283CA694188703FE61330C0C0CCB5C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,17 +415,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13DCCB433BFEB28087ACA6BA6196CCF3 /* Sources */ = {
+		7181F06F4DCC9C1E891589379E75A90A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CAEBFC00D361D9610C74B0D336E5285 /* LRLibHelper-dummy.m in Sources */,
-				D61C2910122401583B4F40653291B12A /* NSArray+Log.m in Sources */,
-				47378F1176393B464EA8E74D4A2C6501 /* NSDictionary+Log.m in Sources */,
-				58E41A962B270DAB446BAA5BEB28A4C4 /* NSString+URLCode.m in Sources */,
-				D848B6AE9A8D6C51E1ECC4438C2C5E18 /* UILabel+UI.m in Sources */,
-				3A93EBE71431E78AD5B01CB437E7DB6A /* UIView+AZGradient.m in Sources */,
-				0D5DDC5483200E6968DA81B9C2212D95 /* UIViewController+AlertNoPresent.m in Sources */,
+				5402F2AC2C78A9659616CA78EDC46C42 /* LRLibHelper-dummy.m in Sources */,
+				8AF53CF25BF623E92E073AE197FAC79E /* NSArray+Log.m in Sources */,
+				738067D639F9BB9BAED60CF4F336E4B4 /* NSDictionary+Log.m in Sources */,
+				121332876C2690CF58807CF2E4A845BC /* NSString+URLCode.m in Sources */,
+				C42C5F34D233CC4A7AAF2E29EC9A3F25 /* UILabel+UI.m in Sources */,
+				6756D786A9BB1E41833D3AEFDAE20682 /* UIView+AZGradient.m in Sources */,
+				B73059AAADDC3AE6C20D7BC7CC11D479 /* UIViewController+AlertNoPresent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,52 +448,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		16B293C8A0984835DE8DA97040F70C25 /* PBXTargetDependency */ = {
+		28E9920C8031D77DD582094A37F83DBB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LRLibHelper;
 			target = ADEA50BB24FEF6F242048FF400044A45 /* LRLibHelper */;
-			targetProxy = 587E89DB7C91F344F6F15B4B1347EB5E /* PBXContainerItemProxy */;
+			targetProxy = D82AB6EBA062839D346CA1605706E707 /* PBXContainerItemProxy */;
 		};
-		4408EB8F263C2A8654977DF1333DEF39 /* PBXTargetDependency */ = {
+		FF84CEE01D3A69E1675CD93663141DD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LRLibHelper_Example";
 			target = 1E9D5CD6527D71838CF4A1E070FB69A5 /* Pods-LRLibHelper_Example */;
-			targetProxy = 191C5D5C842C7E5924EFFFF781C7C077 /* PBXContainerItemProxy */;
+			targetProxy = 6F362E5C2A8ABF7CAA9827321C032987 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A67E775D8276D1D59CA628ECF1C0656 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2533976705EA2FA2C9A7D49DA04A8450 /* LRLibHelper.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LRLibHelper/LRLibHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LRLibHelper/LRLibHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LRLibHelper/LRLibHelper.modulemap";
-				PRODUCT_MODULE_NAME = LRLibHelper;
-				PRODUCT_NAME = LRLibHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -579,9 +561,9 @@
 			};
 			name = Debug;
 		};
-		7D78693C18AE8A1854629981BADAE4B7 /* Debug */ = {
+		6125B1F787A7FC99C06F56A42B25A421 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08A5D4066583647266689F14A153FDC3 /* LRLibHelper.debug.xcconfig */;
+			baseConfigurationReference = 2F5CDAA2AF7AEB1832337B1AC60A7AA0 /* LRLibHelper.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -697,7 +679,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -768,18 +751,40 @@
 			};
 			name = Debug;
 		};
+		DDA0B8482491C98E3E15257982E22B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 519DF44FC8BE6373199A5459C0919946 /* LRLibHelper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LRLibHelper/LRLibHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LRLibHelper/LRLibHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LRLibHelper/LRLibHelper.modulemap";
+				PRODUCT_MODULE_NAME = LRLibHelper;
+				PRODUCT_NAME = LRLibHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		288BD97ED5C8F005B435BA1FAF854082 /* Build configuration list for PBXNativeTarget "LRLibHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D78693C18AE8A1854629981BADAE4B7 /* Debug */,
-				0A67E775D8276D1D59CA628ECF1C0656 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -803,6 +808,15 @@
 			buildConfigurations = (
 				D4D4D21FBA95AA234B5A14D8D990CAC2 /* Debug */,
 				CFB32A18758A8E8ED2DD96548B563091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D913C2937FF8E15D1D54A2F3B056A073 /* Build configuration list for PBXNativeTarget "LRLibHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6125B1F787A7FC99C06F56A42B25A421 /* Debug */,
+				DDA0B8482491C98E3E15257982E22B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
