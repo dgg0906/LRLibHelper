@@ -1,0 +1,16 @@
+PODS:
+  - LRLibHelper (0.1.0)
+
+DEPENDENCIES:
+  - LRLibHelper (from `../`)
+
+EXTERNAL SOURCES:
+  LRLibHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LRLibHelper: 4bc379cf5f022999d00bcc970e5594f2736f9b76
+
+PODFILE CHECKSUM: ba354ad5ac14318529af12f2d020279eb469c01b
+
+COCOAPODS: 1.10.1

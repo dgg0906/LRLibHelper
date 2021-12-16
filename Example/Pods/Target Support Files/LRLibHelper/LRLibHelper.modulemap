@@ -1,0 +1,6 @@
+framework module LRLibHelper {
+  umbrella header "LRLibHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
