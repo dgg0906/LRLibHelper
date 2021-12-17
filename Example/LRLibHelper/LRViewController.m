@@ -8,6 +8,7 @@
 
 #import "LRViewController.h"
 #import "LRLibHeader.h"
+#import "TestViewController.h"
 
 @interface LRViewController ()
 
@@ -19,13 +20,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [btn addTarget:self action:@selector(btnas) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitle:@"aaaaa" forState:UIControlStateNormal];
+    [self.view addSubview:btn];
 
 }
 
-- (void)didReceiveMemoryWarning
+- (void)btnas
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    TestViewController * vc = [TestViewController new];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end

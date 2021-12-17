@@ -1,16 +1,23 @@
 PODS:
-  - LRLibHelper (0.1.0)
+  - LRLibHelper (0.1.2):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - LRLibHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   LRLibHelper:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRLibHelper: 4bc379cf5f022999d00bcc970e5594f2736f9b76
+  LRLibHelper: 875b76d534a855a54d9c616ba2e24bfc58388a18
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: ba354ad5ac14318529af12f2d020279eb469c01b
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

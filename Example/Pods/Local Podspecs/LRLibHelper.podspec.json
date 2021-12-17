@@ -1,6 +1,6 @@
 {
   "name": "LRLibHelper",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of LRLibHelper.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dgg0906/LRLibHelper",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/dgg0906/LRLibHelper.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "LRLibHelper/Classes/**/*"
+  "source_files": "LRLibHelper/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
