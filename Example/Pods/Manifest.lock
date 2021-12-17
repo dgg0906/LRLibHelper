@@ -1,5 +1,5 @@
 PODS:
-  - LRLibHelper (0.1.4):
+  - LRLibHelper (0.1.8):
     - Masonry
   - Masonry (1.1.0)
 
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LRLibHelper: 422946578287cfc3104c8ab7a6347ba1a3841c8c
+  LRLibHelper: ea79b1ef4ad632d8b24d1a969216820c20fc381b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 4579f9dfa78b7986432b7b6dea585fb2318154d1
