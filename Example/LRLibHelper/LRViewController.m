@@ -24,6 +24,7 @@
     UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [btn addTarget:self action:@selector(btnas) forControlEvents:UIControlEventTouchUpInside];
     [btn setTitle:@"aaaaa" forState:UIControlStateNormal];
+    [btn setBackgroundColor: [UIColor lightGrayColor]];
     [self.view addSubview:btn];
 
 }
