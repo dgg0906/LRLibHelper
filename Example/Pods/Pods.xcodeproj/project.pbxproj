@@ -138,7 +138,7 @@
 		8AEEBD88282BA13360CAA867D8465C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		8B42061D2C2C51254560CB6A623E79AA /* NSArray+Log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
 		9073C3B74BC30C55B4EB5B2A596EAD72 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		98A6070895FBC1763241C1889E521D09 /* LRLibHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LRLibHelper; path = LRLibHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A6070895FBC1763241C1889E521D09 /* LRLibHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LRLibHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E31605BA0CBD3191B85DA6A9252D53F /* LRLibHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LRLibHelper.modulemap; sourceTree = "<group>"; };
 		A78D3443F105E00FC21FE5A357C8F716 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
@@ -254,7 +254,7 @@
 		580AE7A742CD3666E55791C579296279 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98A6070895FBC1763241C1889E521D09 /* LRLibHelper */,
+				98A6070895FBC1763241C1889E521D09 /* LRLibHelper.framework */,
 				1FFED36A657123030ABB700256D73F15 /* Masonry */,
 				EFA2649F7DC5E6D6C1A23A55D9943B96 /* Pods-LRLibHelper_Example */,
 				E61F4D44D2009CAF4DC99BE88051B2BE /* Pods-LRLibHelper_Tests */,
@@ -546,7 +546,7 @@
 			);
 			name = LRLibHelper;
 			productName = LRLibHelper;
-			productReference = 98A6070895FBC1763241C1889E521D09 /* LRLibHelper */;
+			productReference = 98A6070895FBC1763241C1889E521D09 /* LRLibHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -952,6 +952,7 @@
 			baseConfigurationReference = 086FE682FE7A3108F0845F42ABBBD319 /* LRLibHelper.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1020,6 +1021,7 @@
 			baseConfigurationReference = B3CC0D07CA2C97204207D675655ABE15 /* LRLibHelper.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
