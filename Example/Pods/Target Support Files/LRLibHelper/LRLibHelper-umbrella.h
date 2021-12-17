@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LRLibHeader.h"
 #import "NSArray+Log.h"
 #import "NSDictionary+Log.h"
 #import "NSString+URLCode.h"
@@ -17,7 +18,6 @@
 #import "UILabel+UI.h"
 #import "UIView+AZGradient.h"
 #import "UIViewController+AlertNoPresent.h"
-#import "LRLibHeader.h"
 
 FOUNDATION_EXPORT double LRLibHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char LRLibHelperVersionString[];
